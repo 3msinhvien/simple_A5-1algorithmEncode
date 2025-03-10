@@ -1,7 +1,21 @@
 # A5/1 Audio Encryption/Decryption
-B1: Install các thư viện cần thiết 
-- Mở terminal, chạy lệnh sau: pip install -r requirement.txt
-B2: Chạy chương trình bằng lệnh: python ui.py
-B3: Nhập khóa vào ô giao diện (hoặc có thể chọn tự sinh khoá)
-B4: Chọn file âm thanh (định dạng WAV) cần mã hóa hoặc giải mã. (File mẫu mình đã để cùng với mã nguồn)
-B5: Chọn mã hoá/ giải mã, file output sẽ được lưu cùng mã nguồn của chương trình
+
+B1: Cài đặt các thư viện cần thiết
+- Mở terminal và chạy lệnh sau để cài đặt các thư viện cần thiết:
+  pip install -r requirements.txt
+
+B2: Chạy chương trình
+- Sau khi cài đặt thư viện, chạy chương trình bằng lệnh:
+  python ui.py
+
+B3: Nhập khóa
+- Bạn có thể nhập khóa thủ công vào ô nhập khóa (khóa phải có định dạng 16 ký tự hex).
+- Hoặc chọn tùy chọn "Tự động sinh key" để tự động sinh khóa.
+
+B4: Chọn file âm thanh
+- Chọn file âm thanh cần mã hóa hoặc giải mã (định dạng WAV).
+- File mẫu đã được để cùng với mã nguồn, bạn có thể sử dụng file đó để thử nghiệm.
+
+B5: Chọn chế độ mã hóa/giải mã
+- Chọn chế độ mã hoá hoặc giải mã
+- File output sẽ được lưu trong cùng thư mục với mã nguồn của chương trình. Tên file sẽ tự động được gán theo định dạng "_encrypted" hoặc "_decrypted", tùy thuộc vào chế độ bạn chọn.
